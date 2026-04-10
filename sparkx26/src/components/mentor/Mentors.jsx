@@ -79,7 +79,7 @@ export const Mentors = () => {
   return (
     <section
       id="mentors"
-      className="relative w-full max-w-[1400px] mx-auto px-6 py-24 text-white"
+      className="relative w-full max-w-[1400px] mx-auto px-6 pt-24 pb-8 text-white"
     >
       {/* Section Header */}
       <div className="mb-16 text-center">
