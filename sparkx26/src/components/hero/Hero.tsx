@@ -47,9 +47,8 @@ export const Hero = () => {
   const mouseY = mousePosition.y - centerY;
 
   return (
-    <section className="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden bg-[url('/bg.jpeg')] bg-cover bg-center bg-no-repeat pt-20 pb-22">
-      
-      <div className="absolute inset-0 bg-black/50 pointer-events-none z-10" />
+    <section className="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden pt-20 pb-22">
+
 
       {/* Floating Icons */}
       {icons.map((icon) => (

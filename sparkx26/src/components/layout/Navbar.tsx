@@ -83,9 +83,11 @@ export const Navbar = () => {
         </div> */}
 
         {/* Notes Button */}
-        <button className="rounded-lg bg-white px-4 py-2 font-medium text-black transition-all hover:bg-gray-200">
-          Notes       
-        </button>
+        <a href="#">
+          <button className="rounded-lg bg-white px-4 py-2 font-medium text-black transition-all hover:bg-gray-200">
+            Notes       
+          </button>
+        </a>
       </div>
       
     </nav>
