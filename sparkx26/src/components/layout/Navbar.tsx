@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from "react";
 
 export const Navbar = () => {
-  const [isDark, setIsDark] = useState(true);
+
   const [currentHash, setCurrentHash] = useState(window.location.hash);
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
 
