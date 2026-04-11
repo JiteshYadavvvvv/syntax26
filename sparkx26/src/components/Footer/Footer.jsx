@@ -10,7 +10,7 @@ export const Footer = () => {
             <img
               src="/logo.png"
               alt="Spark Logo"
-              className="w-20 h-20 object-contain rounded-full"
+              className="w-16 h-16 object-contain rounded-full"
             />
             <span className="text-white text-2xl md:text-3xl font-semibold tracking-tight">
               | SPARK
