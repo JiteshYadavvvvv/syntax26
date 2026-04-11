@@ -2,77 +2,80 @@ import ChromaGrid from './ChromaGrid';
 
 const mentors = [
   {
-    image: "https://i.pravatar.cc/300?img=8",
-    title: "Alex Rivera",
+    image: "/mentors/pradeep.jpeg",
+    title: "Pradeep Kumar",
     subtitle: "Full Stack Developer",
-    handle: "@alexrivera",
+    handle: "@pradeepkumar0805",
     borderColor: "#4F46E5",
     gradient: "linear-gradient(145deg, #4F46E5, #000)",
-    url: "https://github.com/"
+    url: "https://www.instagram.com/pradeepkumar0805/"
   },
+  
   {
-    image: "https://i.pravatar.cc/300?img=11",
-    title: "Jordan Chen",
-    subtitle: "DevOps Engineer",
-    handle: "@jordanchen",
+    image: "/mentors/anmol.jpeg",
+    title: "Anmol Singh Rathore",
+    subtitle: "",
+    handle: "@anmol_s_rathore",
     borderColor: "#10B981",
     gradient: "linear-gradient(210deg, #10B981, #000)",
-    url: "https://linkedin.com/in/"
+    url: "https://www.instagram.com/anmol_s_rathore/"
+  },
+  
+  {
+    image: "/mentors/yashika.jpeg",
+    title: "Yashika Yadav",
+    subtitle: "Blockchain Specialist",
+    handle: "@yshka.ydv",
+    borderColor: "#8B5CF6",
+    gradient: "linear-gradient(225deg, #8B5CF6, #000)",
+    url: "https://www.instagram.com/yshka.ydv/"
+  },
+  {
+    image: "/mentors/sid.jpeg",
+    title: "Sidarth Pathania",
+    subtitle: "UI/UX Designer",
+    handle: "@siddhart.h_",
+    borderColor: "#06B6D4",
+    gradient: "linear-gradient(135deg, #06B6D4, #000)",
+    url: "https://www.instagram.com/siddhart.h_/"
+  },
+  {
+    image: "/mentors/sashwant.jpeg",
+    title: "Shashwant Trivedi",
+    subtitle: "Full Stack Developer",
+    handle: "@shashwatrivedi",
+    borderColor: "#EF4444",
+    gradient: "linear-gradient(195deg, #EF4444, #000)",
+    url: "https://www.instagram.com/shashwatrivedi/"
   },
   {
     image: "https://i.pravatar.cc/300?img=3",
-    title: "Morgan Blake",
-    subtitle: "UI/UX Designer",
-    handle: "@morganblake",
+    title: "MD Dilshad",
+    subtitle: "DSA/Management",
+    handle: "@dilsh.ad2470",
     borderColor: "#F59E0B",
     gradient: "linear-gradient(165deg, #F59E0B, #000)",
-    url: "https://dribbble.com/"
+    url: "https://www.instagram.com/dilsh.ad2470/"
   },
   {
-    image: "https://i.pravatar.cc/300?img=16",
-    title: "Casey Park",
-    subtitle: "Data Scientist",
-    handle: "@caseypark",
-    borderColor: "#EF4444",
-    gradient: "linear-gradient(195deg, #EF4444, #000)",
-    url: "https://kaggle.com/"
-  },
-  {
-    image: "https://i.pravatar.cc/300?img=25",
-    title: "Sam Kim",
-    subtitle: "Mobile Developer",
-    handle: "@thesamkim",
-    borderColor: "#8B5CF6",
-    gradient: "linear-gradient(225deg, #8B5CF6, #000)",
-    url: "https://github.com/"
-  },
-  {
-    image: "https://i.pravatar.cc/300?img=60",
-    title: "Tyler Rodriguez",
-    subtitle: "Cloud Architect",
-    handle: "@tylerrod",
-    borderColor: "#06B6D4",
-    gradient: "linear-gradient(135deg, #06B6D4, #000)",
-    url: "https://aws.amazon.com/"
-  },
-  {
-    image: "https://i.pravatar.cc/300?img=8",
-    title: "Alex Rivera",
-    subtitle: "Full Stack Developer",
-    handle: "@alexrivera",
-    borderColor: "#4F46E5",
-    gradient: "linear-gradient(145deg, #4F46E5, #000)",
-    url: "https://github.com/"
-  },
-  {
-    image: "https://i.pravatar.cc/300?img=11",
-    title: "Jordan Chen",
-    subtitle: "DevOps Engineer",
-    handle: "@jordanchen",
+    image: "/mentors/amresh.jpeg",
+    title: "Amresh Singh",
+    subtitle: "ML/Sponsorship",
+    handle: "@entangled.bunny",
     borderColor: "#10B981",
     gradient: "linear-gradient(210deg, #10B981, #000)",
-    url: "https://linkedin.com/in/"
+    url: "https://www.instagram.com/entangled.bunny/"
+  },
+  {
+    image: "/mentors/atul.jpeg",
+    title: "Atul Hooda",
+    subtitle: "UI/UX Designer",
+    handle: "@justatoool",
+    borderColor: "#4F46E5",
+    gradient: "linear-gradient(145deg, #4F46E5, #000)",
+    url: "https://www.instagram.com/justatoool/"
   }
+  
 ];
 
 export const Mentors = () => {

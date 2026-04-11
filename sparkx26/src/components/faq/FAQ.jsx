@@ -5,7 +5,7 @@ import { ChevronDown } from 'lucide-react';
 const faqs = [
   {
     q: "Do I need prior programming knowledge to attend SPARK?",
-    a: "SPARK is open to all FEs, regardless of branch or experience level. It covers basics to advanced topics and runs from August 10 to September 29, with 2-hour sessions every weekend. Whether you're a beginner or have some coding experience, you’re welcome to join!"
+    a: "SPARK is open to all FEs, regardless of branch or experience level. It covers basics to advanced topics and runs from July 18 to August 26, with 2-hour sessions every weekend. Whether you're a beginner or have some coding experience, you’re welcome to join!"
   },
   {
     q: "Will I be able to create high-quality websites after completing Spark classes?",
