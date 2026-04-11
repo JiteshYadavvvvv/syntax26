@@ -3,7 +3,8 @@ import { Hero } from "../components/hero/Hero";
 import { Timeline } from "../components/timeline/Timeline";
 import { Events } from "../components/event/Events";
 import { Mentors } from "../components/mentor/Mentors";
-import { FAQSection } from "../components/faq/FAQSection";
+import { FAQ } from "../components/faq/FAQ";
+import { Footer } from "../components/Footer/Footer";
 
 export const Home = () => {
   return (
@@ -15,7 +16,8 @@ export const Home = () => {
       <Timeline />
       <Events />
       <Mentors />
-      <FAQSection />
+      <FAQ />
+      <Footer />
     </main>
   );
 };

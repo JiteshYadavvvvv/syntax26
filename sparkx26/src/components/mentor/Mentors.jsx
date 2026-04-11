@@ -81,7 +81,6 @@ export const Mentors = () => {
       id="mentors"
       className="relative w-full max-w-[1400px] mx-auto px-6 pt-24 pb-8 text-white"
     >
-      {/* Section Header */}
       <div className="mb-16 text-center">
         <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-4 text-white">
           Meet the <span className="text-4xl md:text-5xl font-extrabold tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">

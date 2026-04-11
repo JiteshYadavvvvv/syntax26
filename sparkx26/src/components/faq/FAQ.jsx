@@ -75,7 +75,7 @@ const FAQItem = ({ faq, index, isOpen, onToggle }) => {
   );
 };
 
-export const FAQSection = () => {
+export const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const handleToggle = (index) => {
@@ -87,7 +87,6 @@ export const FAQSection = () => {
       id="faqs"
       className="relative w-full max-w-5xl mx-auto px-6 pt-8 pb-24 text-white"
     >
-      {/* Header */}
       <div className="mb-16 text-center">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/40 mb-4">
           Inquiries
@@ -97,7 +96,6 @@ export const FAQSection = () => {
         </h2>
       </div>
 
-      {/* FAQ List — top border */}
       <div className="border-t border-white/10">
         {faqs.map((faq, index) => (
           <FAQItem

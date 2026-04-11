@@ -33,7 +33,6 @@ export const Events = () => {
       id="events"
       className="relative w-full max-w-6xl mx-auto px-6 py-24 text-white"
     >
-      {/* Section Header */}
       <div className="mb-16 text-center">
         <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-3 text-white">
           Our{' '}
@@ -46,7 +45,6 @@ export const Events = () => {
         </p>
       </div>
 
-      {/* Cards Row */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {events.map((event, index) => (
           <motion.div
@@ -64,9 +62,8 @@ export const Events = () => {
               borderRadius={20}
               className="h-full"
             >
-              <div className="flex flex-col h-full bg-black/20 backdrop-blur-sm rounded-[20px] p-6">
+              <div className="flex flex-col h-full bg-white/5 backdrop-blur-xl rounded-[20px] p-6">
 
-                {/* Logo + Title */}
                 <div className="mb-4">
                   <img
                     src={event.icon}
@@ -78,15 +75,12 @@ export const Events = () => {
                   </h3>
                 </div>
 
-                {/* Divider */}
                 <div className="w-12 h-0.5 mb-4 rounded-full bg-white/20" />
 
-                {/* Description */}
                 <p className="text-white/60 text-sm leading-relaxed flex-1 mb-8">
                   {event.description}
                 </p>
 
-                {/* Buttons — grey theme */}
                 <div className="flex gap-3 mt-auto">
                   <a
                     href="#"
