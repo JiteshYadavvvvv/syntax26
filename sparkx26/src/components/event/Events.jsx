@@ -31,7 +31,7 @@ export const Events = () => {
   return (
     <section
       id="events"
-      className="relative w-full max-w-6xl mx-auto px-6 py-24 text-white"
+      className="relative w-full max-w-6xl mx-auto scroll-mt-20 px-6 py-24 text-white"
     >
       <div className="mb-16 text-center">
         <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-3 text-white">
@@ -40,7 +40,7 @@ export const Events = () => {
             Events
           </span>
         </h2>
-        <p className="text-white/50 max-w-2xl mx-auto text-base md:text-lg">
+        <p className="text-white/50 max-w-xl mx-auto text-base md:text-lg">
           Get ready to showcase your web development skills! Our exciting competition is just around the corner.
         </p>
       </div>
@@ -62,7 +62,7 @@ export const Events = () => {
               borderRadius={20}
               className="h-full"
             >
-              <div className="flex flex-col h-full bg-white/5 backdrop-blur-xl rounded-[20px] p-6">
+              <div className="flex flex-col h-full bg-white/5 backdrop-blur-lg rounded-[20px] p-6">
 
                 <div className="mb-4">
                   <img

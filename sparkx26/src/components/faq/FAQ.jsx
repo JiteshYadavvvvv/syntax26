@@ -85,7 +85,7 @@ export const FAQ = () => {
   return (
     <section
       id="faqs"
-      className="relative w-full max-w-5xl mx-auto px-6 pt-8 pb-24 text-white"
+      className="relative w-full max-w-5xl mx-auto scroll-mt-20 px-6 pt-12 pb-40 text-white"
     >
       <div className="mb-16 text-center">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/40 mb-4">

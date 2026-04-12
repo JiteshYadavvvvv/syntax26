@@ -16,7 +16,7 @@ const classes = [
 
 export const Timeline = () => {
   return (
-    <section className="relative w-full max-w-6xl mx-auto px-6 py-24 text-white" id="schedule">
+    <section className="relative w-full max-w-6xl mx-auto  px-6 py-24 text-white" id="schedule">
       <div className="mb-20 text-center">
         <p className="text-2xl md:text-3xl font-extrabold tracking-tight mb-4">
           Agenda
