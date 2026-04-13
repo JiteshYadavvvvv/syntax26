@@ -13,7 +13,7 @@ const icons = [
   {
     name: "Tailwind CSS",
     src: "/tech/tailwindcss.svg",
-    className: "top-[25%] right-[15%]",
+    className: "top-[29%] right-[15%]",
     size: "w-20 h-20",
     parallaxDepth: -0.03,
     delay: 0.2,
@@ -21,7 +21,7 @@ const icons = [
   {
     name: "React",
     src: "/tech/react.svg",
-    className: "bottom-[43.5%] left-[24.3%]",
+    className: "bottom-[15.5%] left-[24.3%]",
     size: "w-16 h-16",
     parallaxDepth: -0.04,
     delay: 0.4,
@@ -29,7 +29,7 @@ const icons = [
   {
     name: "Git",
     src: "/tech/git.svg",
-    className: "bottom-[45%] right-[19%]",
+    className: "bottom-[10%] right-[19%]",
     size: "w-16 h-16",
     parallaxDepth: 0.06,
     delay: 0.6,
@@ -94,6 +94,22 @@ export const Hero = () => {
       ))}
 
       {/* Main Content */}
+      
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.6, ease: "easeOut" }}
+        className="absolute bottom-0 left-0 w-full z-20 pointer-events-none"
+      >
+        <img
+          src="/spx.svg"
+          alt="Spark"
+          className="mx-auto w-[1500px] h-[800px] pt-40 mt-40  object-contain object-top"
+          draggable={false}
+        />
+      </motion.div>
+      
       <div className="relative z-30 flex flex-col items-center text-center mb-80 px-4 max-w-4xl w-full">
         <motion.div
           initial={{ opacity: 0, scale: 0.95, y: 10 }}
@@ -111,29 +127,17 @@ export const Hero = () => {
           </h1> */}
         </motion.div>
 
-        <motion.p
+        
+      </div>
+      
+      <motion.p
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-          className="text-white/50 text-xl md:text-2xl mb-8 font-medium max-w-2xl"
+          className="text-white/50 text-xl md:text-2xl mb-[-220px] font-medium max-w-2xl"
         >
           IGNITE THE <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">SPARK</span> OF DEVELOPMENT
         </motion.p>
-      </div>
-
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, delay: 0.6, ease: "easeOut" }}
-        className="absolute bottom-0 left-0 w-full z-20 pointer-events-none"
-      >
-        <img
-          src="/spx.svg"
-          alt="Spark"
-          className="mx-auto w-[1500px] h-[800px] pt-40 mb-[-60px] object-contain object-bottom"
-          draggable={false}
-        />
-      </motion.div>
     </section>
   );
 };
