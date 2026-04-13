@@ -21,7 +21,7 @@ const icons = [
   {
     name: "React",
     src: "/tech/react.svg",
-    className: "bottom-[42%] left-[25%]",
+    className: "bottom-[43.5%] left-[25%]",
     size: "w-16 h-16",
     parallaxDepth: -0.04,
     delay: 0.4,
