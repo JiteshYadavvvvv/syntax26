@@ -134,7 +134,7 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-          className="text-white/50 text-xl md:text-2xl mb-[-220px] font-medium max-w-2xl"
+          className="text-white/50 text-xl md:text-2xl mb-[-260px] font-medium max-w-2xl"
         >
           IGNITE THE <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">SPARK</span> OF DEVELOPMENT
         </motion.p>
