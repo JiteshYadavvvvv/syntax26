@@ -5,7 +5,7 @@ const icons = [
   {
     name: "JavaScript",
     src: "/tech/js.svg",
-    className: "top-[20%] left-[17%]",
+    className: "top-[30%] left-[15%]",
     size: "w-16 h-16",
     parallaxDepth: 0.05,
     delay: 0,
@@ -13,7 +13,7 @@ const icons = [
   {
     name: "Tailwind CSS",
     src: "/tech/tailwindcss.svg",
-    className: "top-[20%] right-[30%]",
+    className: "top-[25%] right-[15%]",
     size: "w-20 h-20",
     parallaxDepth: -0.03,
     delay: 0.2,
@@ -21,7 +21,7 @@ const icons = [
   {
     name: "React",
     src: "/tech/react.svg",
-    className: "bottom-[43.5%] left-[25%]",
+    className: "bottom-[43.5%] left-[24.3%]",
     size: "w-16 h-16",
     parallaxDepth: -0.04,
     delay: 0.4,
@@ -117,7 +117,7 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="text-white/50 text-xl md:text-2xl mb-8 font-medium max-w-2xl"
         >
-          IGNITE THE SPARK OF DEVELOPMENT
+          IGNITE THE <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">SPARK</span> OF DEVELOPMENT
         </motion.p>
       </div>
 
