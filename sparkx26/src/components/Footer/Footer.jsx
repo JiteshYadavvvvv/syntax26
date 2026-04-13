@@ -21,7 +21,7 @@ export const Footer = () => {
             <p className="text-white/80 text-2xl">Follow us on</p>
             <div className="flex gap-7 mt-2">
               <a
-                href="https://github.com"
+                href="https://github.com/aitoss"
                 aria-label="GitHub"
                 target="_blank"
                 rel="noreferrer"
@@ -30,7 +30,7 @@ export const Footer = () => {
                 <Github className="w-7 h-7" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/open-source-software-club/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noreferrer"
@@ -39,7 +39,7 @@ export const Footer = () => {
                 <Linkedin className="w-7 h-7" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/ossclub.ait/"
                 aria-label="Instagram"
                 target="_blank"
                 rel="noreferrer"

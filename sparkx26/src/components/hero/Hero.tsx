@@ -4,32 +4,32 @@ import { useMousePosition } from "../../hooks/useMousePosition";
 const icons = [
   {
     name: "JavaScript",
-    src: "/js.svg",
-    className: "top-[30%] left-[17%]",
+    src: "/tech/js.svg",
+    className: "top-[20%] left-[17%]",
     size: "w-16 h-16",
     parallaxDepth: 0.05,
     delay: 0,
   },
   {
     name: "Tailwind CSS",
-    src: "/tailwindcss.svg",
-    className: "top-[20%] right-[18%]",
+    src: "/tech/tailwindcss.svg",
+    className: "top-[20%] right-[30%]",
     size: "w-20 h-20",
     parallaxDepth: -0.03,
     delay: 0.2,
   },
   {
     name: "React",
-    src: "/react.svg",
-    className: "bottom-[30%] left-[22%]",
+    src: "/tech/react.svg",
+    className: "bottom-[42%] left-[25%]",
     size: "w-16 h-16",
     parallaxDepth: -0.04,
     delay: 0.4,
   },
   {
     name: "Git",
-    src: "git.svg",
-    className: "bottom-[40%] right-[25%]",
+    src: "/tech/git.svg",
+    className: "bottom-[45%] right-[19%]",
     size: "w-16 h-16",
     parallaxDepth: 0.06,
     delay: 0.6,
@@ -94,13 +94,13 @@ export const Hero = () => {
       ))}
 
       {/* Main Content */}
-      <div className="relative z-30 flex flex-col items-center text-center px-4 max-w-4xl w-full">
+      <div className="relative z-30 flex flex-col items-center text-center mb-80 px-4 max-w-4xl w-full">
         <motion.div
           initial={{ opacity: 0, scale: 0.95, y: 10 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <div className="text-xl md:text-2xl text-white/60 font-semibold mb-4 tracking-widest uppercase">
+          {/* <div className="text-xl md:text-2xl text-white/60 font-semibold mb-4 tracking-widest uppercase">
             Welcome to
           </div>
           <h1 className="text-7xl md:text-8xl font-extrabold tracking-tight mb-6">
@@ -108,7 +108,7 @@ export const Hero = () => {
               OSS
             </span>{" "}
             <span className="text-white drop-shadow-md">Sparkx.</span>
-          </h1>
+          </h1> */}
         </motion.div>
 
         <motion.p
@@ -128,9 +128,9 @@ export const Hero = () => {
         className="absolute bottom-0 left-0 w-full z-20 pointer-events-none"
       >
         <img
-          src="/Spark-main.svg"
+          src="/spx.svg"
           alt="Spark"
-          className="mx-auto w-[1500px] h-[450px] pt-40 mb-[-70px] object-contain object-bottom"
+          className="mx-auto w-[1500px] h-[800px] pt-40 mb-[-60px] object-contain object-bottom"
           draggable={false}
         />
       </motion.div>
