@@ -31,7 +31,7 @@ const mentors = [
   },
   {
     image: "/mentors/sid.jpeg",
-    title: "Sidarth Pathania",
+    title: "Siddharth Pathania",
     subtitle: "UI/UX Designer",
     handle: "@siddhart.h_",
     borderColor: "#06B6D4",
