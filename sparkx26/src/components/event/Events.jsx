@@ -1,7 +1,9 @@
 import { motion } from 'framer-motion';
 import ElectricBorder from './ElectricBorder';
 
-const GREY = '#6B7280';
+
+const GREY = '#494949';
+
 
 const events = [
   {
@@ -56,50 +58,52 @@ export const Events = () => {
             className="h-full"
           >
             <ElectricBorder
-              color={GREY}
-              speed={0.8}
-              chaos={0.1}
-              borderRadius={20}
+              color="#484849"
+              speed={0.5}
+              chaos={0.08}
+              thickness={20}
+              style={{ borderRadius: 20 }}
               className="h-full"
             >
-              <div className="flex flex-col h-full bg-white/5 backdrop-blur-lg rounded-[20px] p-6">
+             
+            <div className="flex flex-col h-full bg-black/25 backdrop-blur-xl rounded-[20px] p-6">
 
-                <div className="mb-4">
-                  <img
-                    src={event.icon}
-                    alt={event.title}
-                    className="w-10 h-10 mb-3 object-contain"
-                  />
-                  <h3 className="text-2xl font-extrabold tracking-tight text-white">
-                    {event.title}
-                  </h3>
-                </div>
-
-                <div className="w-12 h-0.5 mb-4 rounded-full bg-white/20" />
-
-                <p className="text-white/60 text-sm leading-relaxed flex-1 mb-8">
-                  {event.description}
-                </p>
-
-                <div className="flex gap-3 mt-auto">
-                  <a
-                    href="#"
-                    className="flex-1 text-center rounded-lg px-4 py-2.5 text-sm font-semibold text-white bg-white/10 border border-white/20 hover:bg-white/20 hover:border-white/30 transition-all duration-300"
-                  >
-                    Register
-                  </a>
-                  <a
-                    href="#"
-                    className="flex-1 text-center rounded-lg px-4 py-2.5 text-sm font-semibold text-white/60 border border-white/10 bg-transparent hover:bg-white/10 hover:text-white transition-all duration-300"
-                  >
-                    Rulebook
-                  </a>
-                </div>
+              <div className="mb-4">
+                <img
+                  src={event.icon}
+                  alt={event.title}
+                  className="w-10 h-10 mb-3 object-contain"
+                />
+                <h3 className="text-2xl font-extrabold tracking-tight text-white">
+                  {event.title}
+                </h3>
               </div>
-            </ElectricBorder>
+
+              <div className="w-12 h-0.5 mb-4 rounded-full bg-white/20" />
+
+              <p className="text-white/60 text-sm leading-relaxed flex-1 mb-8">
+                {event.description}
+              </p>
+
+              <div className="flex gap-3 mt-auto">
+                <a
+                  href="#"
+                  className="flex-1 text-center rounded-lg px-4 py-2.5 text-sm font-semibold text-white bg-white/10 border border-white/20 hover:bg-white/20 hover:border-white/30 transition-all duration-300"
+                >
+                  Register
+                </a>
+                <a
+                  href="#"
+                  className="flex-1 text-center rounded-lg px-4 py-2.5 text-sm font-semibold text-white/60 border border-white/10 bg-transparent hover:bg-white/10 hover:text-white transition-all duration-300"
+                >
+                  Rulebook
+                </a>
+              </div>
+            </div>
+          </ElectricBorder>
           </motion.div>
         ))}
-      </div>
-    </section>
+    </div>
+    </section >
   );
 };
