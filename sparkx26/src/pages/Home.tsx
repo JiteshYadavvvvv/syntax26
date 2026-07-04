@@ -8,7 +8,7 @@ import { Footer } from "../components/Footer/Footer";
 
 export const Home = () => {
   return (
-    <main className="relative min-h-screen w-full selection:bg-blue-500/30 z-0 text-white">
+    <main className="relative min-h-screen w-full overflow-x-hidden selection:bg-blue-500/30 z-0 text-white">
       <div className="fixed inset-0 -z-10 bg-[url('/bg.jpeg')] bg-cover bg-center bg-no-repeat" />
       <div className="fixed inset-0 -z-10 bg-black/50" />
       <Navbar />

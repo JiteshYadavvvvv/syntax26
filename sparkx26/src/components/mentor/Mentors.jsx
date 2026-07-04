@@ -132,7 +132,7 @@ export const Mentors = () => {
         </h2>
       </div>
 
-      <div style={{ minHeight: '900px', position: 'relative' }}>
+      <div className="relative min-h-[600px] sm:min-h-[900px]">
         <ChromaGrid
           items={mentors}
           radius={320}

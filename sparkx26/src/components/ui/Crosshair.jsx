@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 
 const lerp = (a, b, n) => (1 - n) * a + n * b;
@@ -21,7 +21,22 @@ const Crosshair = ({ color = 'white', containerRef = null }) => {
   const filterXRef = useRef(null);
   const filterYRef = useRef(null);
 
+  // Only enable the crosshair on devices with a real pointer (mouse/trackpad).
+  const [hasFinePointer, setHasFinePointer] = useState(
+    () =>
+      typeof window !== 'undefined' &&
+      window.matchMedia('(hover: hover) and (pointer: fine)').matches
+  );
+
   useEffect(() => {
+    const mq = window.matchMedia('(hover: hover) and (pointer: fine)');
+    const onChange = () => setHasFinePointer(mq.matches);
+    mq.addEventListener('change', onChange);
+    return () => mq.removeEventListener('change', onChange);
+  }, []);
+
+  useEffect(() => {
+    if (!hasFinePointer) return;
     let mouse = { x: 0, y: 0 };
 
     const handleMouseMove = ev => {
@@ -152,7 +167,9 @@ const Crosshair = ({ color = 'white', containerRef = null }) => {
       });
       observer.disconnect();
     };
-  }, [containerRef, color]);
+  }, [containerRef, color, hasFinePointer]);
+
+  if (!hasFinePointer) return null;
 
   return (
     <div

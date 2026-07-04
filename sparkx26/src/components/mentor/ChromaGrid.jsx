@@ -80,7 +80,7 @@ const ChromaGrid = ({ items, className = '', radius = 300, damping = 0.45, fadeO
           onClick={() => handleCardClick(c.url)}
           className="group relative flex flex-col rounded-[20px] overflow-hidden border-2 border-transparent transition-colors duration-300 cursor-pointer bg-neutral-100/90 shadow-[0_16px_40px_rgba(0,0,0,0.18)]"
           style={{
-            width: `${cardWidth}px`,
+            width: `min(${cardWidth}px, 100%)`,
             '--card-border': c.borderColor || 'transparent',
             background: c.gradient,
             '--spotlight-color': 'rgba(255,255,255,0.3)'
@@ -120,7 +120,7 @@ const ChromaGrid = ({ items, className = '', radius = 300, damping = 0.45, fadeO
         </article>
       ))}
       <div
-        className="absolute inset-0 pointer-events-none z-30"
+        className="absolute inset-0 pointer-events-none z-30 [@media(pointer:coarse)]:hidden"
         style={{
           backdropFilter: 'grayscale(1) brightness(0.78)',
           WebkitBackdropFilter: 'grayscale(1) brightness(0.78)',
@@ -133,7 +133,7 @@ const ChromaGrid = ({ items, className = '', radius = 300, damping = 0.45, fadeO
       />
       <div
         ref={fadeRef}
-        className="absolute inset-0 pointer-events-none transition-opacity duration-[250ms] z-40"
+        className="absolute inset-0 pointer-events-none transition-opacity duration-[250ms] z-40 [@media(pointer:coarse)]:hidden"
         style={{
           backdropFilter: 'grayscale(1) brightness(0.78)',
           WebkitBackdropFilter: 'grayscale(1) brightness(0.78)',

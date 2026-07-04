@@ -25,9 +25,9 @@ export const Timeline = () => {
         
       </div>
 
-      <div className="relative flex flex-col gap-10 md:gap-16">
+      <div className="relative flex flex-col gap-8 md:gap-16">
         {/* Vertical line connecting the timeline */}
-        <div className="absolute top-0 bottom-0 left-[48px] md:left-1/2 w-px bg-white/10 transform -translate-x-1/2 rounded-full" />
+        <div className="absolute top-0 bottom-0 left-[20px] md:left-1/2 w-px bg-white/10 transform -translate-x-1/2 rounded-full" />
         
         {classes.map((cls, index) => (
           <TimelineCard key={cls.id} data={cls} index={index} />
