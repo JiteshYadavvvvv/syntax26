@@ -1,5 +1,5 @@
 import { Github, Linkedin, Instagram, Heart } from "lucide-react";
-import logo from "/logo.png";
+
 
 export const Footer = () => {
   return (
@@ -8,12 +8,12 @@ export const Footer = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center gap-6 text-center lg:text-left">
           <a href="/" className="flex items-center gap-3">
             <img
-              src="/logo.png"
-              alt="Spark Logo"
+              src="/dsc_logo.webp"
+              alt="GDG Logo"
               className="w-16 h-16 object-contain rounded-full"
             />
             <span className="text-white text-2xl md:text-3xl font-semibold tracking-tight">
-              | SPARK
+              | SYNTAX
             </span>
           </a>
 
@@ -21,7 +21,7 @@ export const Footer = () => {
             <p className="text-white/80 text-2xl">Follow us on</p>
             <div className="flex gap-7 mt-2">
               <a
-                href="https://github.com/aitoss"
+                href="https://github.com/DSC-AIT-Pune"
                 aria-label="GitHub"
                 target="_blank"
                 rel="noreferrer"
@@ -30,7 +30,7 @@ export const Footer = () => {
                 <Github className="w-7 h-7" />
               </a>
               <a
-                href="https://www.linkedin.com/company/open-source-software-club/"
+                href="https://www.linkedin.com/company/gdsc-aitpune/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noreferrer"
@@ -39,7 +39,7 @@ export const Footer = () => {
                 <Linkedin className="w-7 h-7" />
               </a>
               <a
-                href="https://www.instagram.com/ossclub.ait/"
+                href="https://www.instagram.com/gdsc_aitpune/"
                 aria-label="Instagram"
                 target="_blank"
                 rel="noreferrer"
@@ -51,7 +51,7 @@ export const Footer = () => {
           </div>
 
           <p className="text-white/70 text-lg lg:text-right">
-            Made with <Heart className="inline-block w-5 h-5 mx-1 text-white-500 fill-white-500" aria-hidden="true" /> by OSS Club
+            Made with <Heart className="inline-block w-5 h-5 mx-1 text-white-500 fill-white-500" aria-hidden="true" /> by GDG AIT
           </p>
         </div>
       </div>

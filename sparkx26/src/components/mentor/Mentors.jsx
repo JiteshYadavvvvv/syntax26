@@ -2,86 +2,121 @@ import ChromaGrid from './ChromaGrid';
 
 const mentors = [
   {
-    image: "/mentors/pradeep.jpeg",
-    title: "Pradeep Kumar",
-    subtitle: "Full Stack Developer",
-    handle: "@pradeepkumar0805",
+    image: "/mentors/palak.webp",
+    title: "Palak kumari",
+    subtitle: "GDG Secretary",
+    handle: "@.pala__k",
     borderColor: "#4F46E5",
     gradient: "linear-gradient(145deg, #4F46E5, #000)",
-    url: "https://www.instagram.com/pradeepkumar0805/"
+    url: "https://www.instagram.com/_.pala__k/"
   },
   {
-    image: "/mentors/anmol.jpeg",
-    title: "Anmol Singh Rathore",
-    subtitle: "Algorithm Specialist",
-    handle: "@anmol_s_rathore",
+    image: "/mentors/peyush.jpg",
+    title: "Peush Yadav",
+    subtitle: "GDG Secretary",
+    handle: "@peush_btw",
     borderColor: "#10B981",
     gradient: "linear-gradient(210deg, #10B981, #000)",
-    url: "https://www.instagram.com/anmol_s_rathore/"
-  },
-  
-  {
-    image: "/mentors/amresh.jpeg",
-    title: "Amresh Singh",
-    subtitle: "ML Practitioner",
-    handle: "@entangled.bunny",
-    borderColor: "#10B981",
-    gradient: "linear-gradient(210deg, #10B981, #000)",
-    url: "https://www.instagram.com/entangled.bunny/"
+    url: "https://www.instagram.com/peush_btw/"
   },
   {
-    image: "/mentors/sid.jpeg",
-    title: "Siddharth Pathania",
+    image: "/mentors/annu.webp",
+    title: "Annu Kumari",
     subtitle: "UI/UX Designer",
-    handle: "@siddhart.h_",
+    handle: "@verifiedoutrage",
     borderColor: "#06B6D4",
     gradient: "linear-gradient(135deg, #06B6D4, #000)",
-    url: "https://www.instagram.com/siddhart.h_/"
+    url: "https://www.instagram.com/verifiedoutrage/"
   },
-  
-  
-  
-  
+
   {
-    image: "/mentors/yashika.jpeg",
-    title: "Yashika Yadav",
+    image: "/mentors/peyush.jpg",
+    title: "Deepak Baliyan",
+    subtitle: "UI/UX Designer",
+    handle: "@deepakbaliyan04",
+    borderColor: "#06B6D4",
+    gradient: "linear-gradient(135deg, #06B6D4, #000)",
+    url: "https://www.instagram.com/deepakbaliyan04/"
+  },
+
+  {
+    image: "/mentors/pratap.webp",
+    title: "Aryan Pratap Singh",
+    subtitle: "Full Stack Developer",
+    handle: "@aryan_32__1",
+    borderColor: "#10B981",
+    gradient: "linear-gradient(210deg, #10B981, #000)",
+    url: "https://www.instagram.com/aryan_32__1/"
+  },
+
+  {
+    image: "/mentors/ashu.webp",
+    title: "Ashutosh Mishra",
     subtitle: "Blockchain Specialist",
-    handle: "@yshka.ydv",
+    handle: "@ashum_9 ",
     borderColor: "#8B5CF6",
     gradient: "linear-gradient(225deg, #8B5CF6, #000)",
-    url: "https://www.instagram.com/yshka.ydv/"
+    url: "https://www.instagram.com/ashum_9/"
   },
   {
-    image: "/mentors/dilshad.png",
-    title: "MD Dilshad",
-    subtitle: "Data Analyst",
-    handle: "@dilsh.ad2470",
+    image: "/mentors/asrh.webp",
+    title: "Arsh Tiwari",
+    subtitle: "App dev specialist",
+    handle: "@mr_arshtiwari",
     borderColor: "#F59E0B",
     gradient: "linear-gradient(165deg, #F59E0B, #000)",
-    url: "https://www.instagram.com/dilsh.ad2470/"
+    url: "https://www.instagram.com/mr_arshtiwari/"
   },
   {
-    image: "/mentors/atul.jpeg",
-    title: "Atul Hooda",
-    subtitle: "UI/UX Designer",
-    handle: "@justatoool",
+    image: "/mentors/praanva.webp",
+    title: "Pranav Patil",
+    subtitle: "Ai/ML Specialist",
+    handle: "@pan._av ",
     borderColor: "#4F46E5",
     gradient: "linear-gradient(145deg, #4F46E5, #000)",
-    url: "https://www.instagram.com/justatoool/"
+    url: "https://www.instagram.com/pan._av/"
   },
-  
+
+
   {
-    image: "/mentors/sashwant.jpeg",
-    title: "Shashwant Trivedi",
+    image: "/mentors/sreyash.webp",
+    title: "Sreyash Singh",
+    subtitle: "Flutter Specialist",
+    handle: "@sreyashsingh2024",
+    borderColor: "#8B5CF6",
+    gradient: "linear-gradient(225deg, #8B5CF6, #000)",
+    url: "https://www.instagram.com/sreyashsingh2024/"
+  },
+  {
+    image: "/mentors/raj.webp",
+    title: "Raj Singh Rajput",
+    subtitle: "App dev specialist",
+    handle: "@rajsinghrajput980",
+    borderColor: "#F59E0B",
+    gradient: "linear-gradient(165deg, #F59E0B, #000)",
+    url: "https://www.instagram.com/rajsinghrajput980/"
+  },
+  {
+    image: "/mentors/abhishek.webp",
+    title: "Abhishek Dabbas",
     subtitle: "Full Stack Developer",
-    handle: "@shashwatrivedi",
+    handle: "@ok.abhishek_",
+    borderColor: "#4F46E5",
+    gradient: "linear-gradient(145deg, #4F46E5, #000)",
+    url: "https://www.instagram.com/ok.abhishek_/"
+  },
+
+  {
+    image: "/mentors/aryan-singh.webp",
+    title: "Aryanm Singh",
+    subtitle: "Full Stack Developer",
+    handle: "@aryancheers",
     borderColor: "#EF4444",
     gradient: "linear-gradient(195deg, #EF4444, #000)",
-    url: "https://www.instagram.com/shashwatrivedi/"
+    url: "https://www.instagram.com/aryancheers/"
   }
-  
-  
-  
+
+
 ];
 
 export const Mentors = () => {
@@ -93,7 +128,7 @@ export const Mentors = () => {
       <div className="mb-16 text-center">
         <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-4 text-white">
           Meet the <span className="text-4xl md:text-5xl font-extrabold tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">
-          Mentors</span>
+            Mentors</span>
         </h2>
       </div>
 

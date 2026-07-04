@@ -143,7 +143,7 @@ const ChromaGrid = ({ items, className = '', radius = 300, damping = 0.45, fadeO
           key={i}
           onMouseMove={handleCardMove}
           onClick={() => handleCardClick(c.url)}
-          className="group relative flex flex-col rounded-[20px] overflow-hidden border-2 border-transparent transition-colors duration-300 cursor-pointer"
+          className="group relative flex flex-col rounded-[20px] overflow-hidden border-2 border-transparent transition-colors duration-300 cursor-pointer bg-neutral-100/90 shadow-[0_16px_40px_rgba(0,0,0,0.18)]"
           style={{
             width: `${cardWidth}px`,
             '--card-border': c.borderColor || 'transparent',
@@ -151,6 +151,15 @@ const ChromaGrid = ({ items, className = '', radius = 300, damping = 0.45, fadeO
             '--spotlight-color': 'rgba(255,255,255,0.3)'
           }}
         >
+          <div className="relative z-10 flex items-center justify-between gap-3 border-b border-neutral-300 bg-neutral-200/90 px-3 py-2 text-[0.78rem] font-medium text-slate-900 backdrop-blur-sm">
+            <div className="flex items-center gap-1.5">
+              <span className="h-2.5 w-2.5 rounded-full bg-red-500" />
+              <span className="h-2.5 w-2.5 rounded-full bg-amber-400" />
+              <span className="h-2.5 w-2.5 rounded-full bg-emerald-500" />
+              <span className="h-2.5 w-2.5 rounded-full bg-sky-500" />
+            </div>
+            {c.handle && <span className="truncate text-right text-slate-800">{c.handle}</span>}
+          </div>
           <div
             className="absolute inset-0 pointer-events-none transition-opacity duration-500 z-20 opacity-0 group-hover:opacity-100"
             style={{
@@ -158,13 +167,19 @@ const ChromaGrid = ({ items, className = '', radius = 300, damping = 0.45, fadeO
                 'radial-gradient(circle at var(--mouse-x) var(--mouse-y), var(--spotlight-color), transparent 70%)'
             }}
           />
-          <div className="relative z-10 flex-1 p-[10px] box-border">
-            <img src={c.image} alt={c.title} loading="lazy" className="w-full h-full object-cover rounded-[10px]" />
+          <div className="relative z-10 p-[10px] box-border">
+            <div className="aspect-square w-full overflow-hidden rounded-[10px] bg-neutral-200">
+              <img
+                src={c.image}
+                alt={c.title}
+                loading="lazy"
+                className="h-full w-full object-cover object-center"
+              />
+            </div>
           </div>
-          <footer className="relative z-10 p-3 text-white font-sans grid grid-cols-[1fr_auto] gap-x-3 gap-y-1">
-            <h3 className="m-0 text-[1.05rem] font-semibold">{c.title}</h3>
-            {c.handle && <span className="text-[0.95rem] opacity-80 text-right">{c.handle}</span>}
-            <p className={`m-0 text-[0.85rem] opacity-85 ${c.location ? '' : 'col-span-2'}`}>{c.subtitle}</p>
+          <footer className="relative z-10 border-t border-neutral-300 bg-neutral-50 p-3 font-sans text-slate-900">
+            <h3 className="m-0 text-[1.05rem] font-semibold leading-tight">{c.title}</h3>
+            <p className="m-0 mt-1 text-[0.85rem] text-slate-600">{c.subtitle}</p>
             {c.location && <span className="text-[0.85rem] opacity-85 text-right">{c.location}</span>}
           </footer>
         </article>

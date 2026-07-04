@@ -37,12 +37,12 @@ export const Navbar = () => {
       <div className="flex items-center gap-3">
         <div className="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full">
           <img 
-            src="/logo.png" 
-            alt="OSS Logo" 
+            src="/dsc_logo.webp" 
+            alt="GDG Logo" 
             className="h-full w-full object-cover" 
           />
         </div>
-        <span className="font-semibold tracking-tight text-white">Sparkx26</span>
+        <span className="font-semibold tracking-tight text-white">Syntax26</span>
       </div>
 
       {/* Center Section */}

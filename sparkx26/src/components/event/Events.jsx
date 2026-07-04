@@ -8,24 +8,24 @@ const GREY = '#494949';
 const events = [
   {
     id: 1,
-    title: 'Replica',
+    title: 'SQL Mania',
     description:
       'Each participant has to replicate a given website with only HTML and CSS. Only the front end of the website is required to be replicated.',
-    icon: '/logo.png',
+    icon: '/dsc_logo.webp',
   },
   {
     id: 2,
-    title: 'Graphica',
+    title: 'Devdash',
     description:
       'A 12-hour frontend team event where creativity thrives as developers tackle their unique problem statements, pushing the boundaries of innovation.',
-    icon: '/logo.png',
+    icon: '/dsc_logo.webp',
   },
   {
     id: 3,
     title: 'FSOC',
     description:
       "Freshers' Season of Code is a 5-day open-source contribution challenge where freshers dive into real projects — build, learn, and create something you're proud of!",
-    icon: '/logo.png',
+    icon: '/dsc_logo.webp',
   },
 ];
 
