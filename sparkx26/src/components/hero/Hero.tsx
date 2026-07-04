@@ -99,8 +99,8 @@ export const Hero = () => {
           initial={{ opacity: 0, scale: 0.9, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 0.9, ease: "easeOut" }}
-          src="/spx.svg"
-          alt="Spark"
+          src="/syntax.svg"
+          alt="Syntax"
           className="w-[85%] max-w-sm h-auto object-contain"
           draggable={false}
         />
@@ -110,7 +110,7 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
           className="mt-6 max-w-xs text-sm font-medium leading-relaxed text-white/60"
         >
-          IGNITE THE <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">SPARK</span> OF DEVELOPMENT
+          build . break . become <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">beyond syntax</span>
         </motion.p>
       </div>
 
@@ -122,8 +122,8 @@ export const Hero = () => {
         className="absolute bottom-0 left-0 z-20 hidden w-full pointer-events-none sm:block"
       >
         <img
-          src="/spx.svg"
-          alt="Spark"
+          src="/syntax.svg"
+          alt="Syntax"
           className="mx-auto w-full max-w-[1500px] h-auto pt-40 mt-40 object-contain object-top"
           draggable={false}
         />
@@ -137,7 +137,7 @@ export const Hero = () => {
         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         className="hidden text-white/50 text-xl md:text-2xl mb-[-260px] px-4 text-center font-medium max-w-2xl sm:block"
       >
-        IGNITE THE <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">SPARK</span> OF DEVELOPMENT
+        build . break . become <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">beyond syntax</span>
       </motion.p>
     </section>
   );
