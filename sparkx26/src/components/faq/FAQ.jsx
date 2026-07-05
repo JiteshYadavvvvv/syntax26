@@ -4,16 +4,16 @@ import { ChevronDown } from 'lucide-react';
 
 const faqs = [
   {
-    q: "Do I need prior programming knowledge to attend SPARK?",
-    a: "SPARK is open to all FEs, regardless of branch or experience level. It covers basics to advanced topics and runs from July 18 to August 26, with 2-hour sessions every weekend. Whether you're a beginner or have some coding experience, you’re welcome to join!"
+    q: "Do I need prior programming knowledge to attend SYNTAX?",
+    a: "SYNTAX is open to all FEs, regardless of branch or experience level. It covers basics to advanced topics and runs from July 18 to August 26, with 2-hour sessions every weekend. Whether you're a beginner or have some coding experience, you’re welcome to join!"
   },
   {
-    q: "Will I be able to create high-quality websites after completing Spark classes?",
-    a: "After completing Spark, you'll be ready to create high-quality websites. The classes cover essential web development skills like HTML, CSS, JavaScript, and possibly some backend technologies. With hands-on projects and exercises, you'll gain a solid foundation to build and design effective, functional websites."
+    q: "Will I be able to create high-quality websites after completing SYNTAX classes?",
+    a: "After completing SYNTAX, you'll be ready to create high-quality websites. The classes cover essential web development skills like HTML, CSS, JavaScript, and possibly some backend technologies. With hands-on projects and exercises, you'll gain a solid foundation to build and design effective, functional websites."
   },
   {
     q: "Will there be any assignments or projects?",
-    a: "Yes, participants will be given small practice assignments regularly. There will also be a two competitions - REPLICA and FSoC (Freshers Season of Code), during the run of SPARK. Here participants can apply everything they’ve learned to build fully functional websites and learn how to contribute to open source."
+    a: "Yes, participants will be given small practice assignments regularly. There will also be a two competitions - SQL Mania and FSoC (Freshers Season of Code), during the run of SYNTAX . Here participants can apply everything they’ve learned to build fully functional websites and learn how to contribute to open source."
   },
   {
     q: "What resources will I need?",
@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "Who do I contact if I have more questions?",
-    a: "For any additional questions, feel free to contact the OSS Club via email at ossclub@aitpune.edu.in"
+    a: "For any additional questions, feel free to contact the OSS Club via email at gdsc@aitpune.edu.in"
   }
 ];
 

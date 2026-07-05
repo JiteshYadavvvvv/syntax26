@@ -10,7 +10,7 @@ const events = [
     id: 1,
     title: 'SQL Mania',
     description:
-      'Each participant has to replicate a given website with only HTML and CSS. Only the front end of the website is required to be replicated.',
+      'SQL Mania is a fast-paced SQL challenge where participants solve real-world database problems, test their query skills, and compete for the top spot.',
     icon: '/dsc_logo.webp',
   },
   {
