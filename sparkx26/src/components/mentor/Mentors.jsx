@@ -2,15 +2,6 @@ import ChromaGrid from './ChromaGrid';
 
 const mentors = [
   {
-    image: "/mentors/palak.webp",
-    title: "Palak kumari",
-    subtitle: "GDG Secretary",
-    handle: "@.pala__k",
-    borderColor: "#4F46E5",
-    gradient: "linear-gradient(145deg, #4F46E5, #000)",
-    url: "https://www.instagram.com/_.pala__k/"
-  },
-  {
     image: "/mentors/peyush.jpg",
     title: "Peush Yadav",
     subtitle: "GDG Secretary",
@@ -20,35 +11,45 @@ const mentors = [
     url: "https://www.instagram.com/peush_btw/"
   },
   {
+    image: "/mentors/palak.webp",
+    title: "Palak kumari",
+    subtitle: "GDG Secretary",
+    handle: "@.pala__k",
+    borderColor: "#4F46E5",
+    gradient: "linear-gradient(145deg, #4F46E5, #000)",
+    url: "https://www.instagram.com/_.pala__k/"
+  },
+  
+  {
     image: "/mentors/annu.webp",
     title: "Annu Kumari",
-    subtitle: "UI/UX Designer",
+    subtitle: "UI/UX lead",
     handle: "@verifiedoutrage",
     borderColor: "#06B6D4",
     gradient: "linear-gradient(135deg, #06B6D4, #000)",
     url: "https://www.instagram.com/verifiedoutrage/"
   },
 
-  {
-    image: "/mentors/peyush.jpg",
-    title: "Deepak Baliyan",
-    subtitle: "UI/UX Designer",
-    handle: "@deepakbaliyan04",
-    borderColor: "#06B6D4",
-    gradient: "linear-gradient(135deg, #06B6D4, #000)",
-    url: "https://www.instagram.com/deepakbaliyan04/"
-  },
+ 
 
   {
     image: "/mentors/pratap.webp",
     title: "Aryan Pratap Singh",
-    subtitle: "Full Stack Developer",
+    subtitle: "web dev lead",
     handle: "@aryan_32__1",
     borderColor: "#10B981",
     gradient: "linear-gradient(210deg, #10B981, #000)",
     url: "https://www.instagram.com/aryan_32__1/"
   },
-
+{
+    image: "/mentors/aryan-singh.webp",
+    title: "Aryanm Singh",
+    subtitle: "Web dev lead",
+    handle: "@aryancheers",
+    borderColor: "#EF4444",
+    gradient: "linear-gradient(195deg, #EF4444, #000)",
+    url: "https://www.instagram.com/aryancheers/"
+  }
   {
     image: "/mentors/ashu.webp",
     title: "Ashutosh Mishra",
@@ -61,60 +62,32 @@ const mentors = [
   {
     image: "/mentors/asrh.webp",
     title: "Arsh Tiwari",
-    subtitle: "App dev specialist",
+    subtitle: "App dev lead",
     handle: "@mr_arshtiwari",
     borderColor: "#F59E0B",
     gradient: "linear-gradient(165deg, #F59E0B, #000)",
     url: "https://www.instagram.com/mr_arshtiwari/"
   },
-  {
-    image: "/mentors/praanva.webp",
-    title: "Pranav Patil",
-    subtitle: "Ai/ML Specialist",
-    handle: "@pan._av ",
-    borderColor: "#4F46E5",
-    gradient: "linear-gradient(145deg, #4F46E5, #000)",
-    url: "https://www.instagram.com/pan._av/"
-  },
-
 
   {
     image: "/mentors/sreyash.webp",
     title: "Sreyash Singh",
-    subtitle: "Flutter Specialist",
+    subtitle: "Flutter lead",
     handle: "@sreyashsingh2024",
     borderColor: "#8B5CF6",
     gradient: "linear-gradient(225deg, #8B5CF6, #000)",
     url: "https://www.instagram.com/sreyashsingh2024/"
   },
-  {
-    image: "/mentors/raj.webp",
-    title: "Raj Singh Rajput",
-    subtitle: "App dev specialist",
-    handle: "@rajsinghrajput980",
-    borderColor: "#F59E0B",
-    gradient: "linear-gradient(165deg, #F59E0B, #000)",
-    url: "https://www.instagram.com/rajsinghrajput980/"
-  },
-  {
-    image: "/mentors/abhishek.webp",
-    title: "Abhishek Dabbas",
-    subtitle: "Full Stack Developer",
-    handle: "@ok.abhishek_",
-    borderColor: "#4F46E5",
-    gradient: "linear-gradient(145deg, #4F46E5, #000)",
-    url: "https://www.instagram.com/ok.abhishek_/"
-  },
 
-  {
-    image: "/mentors/aryan-singh.webp",
-    title: "Aryanm Singh",
-    subtitle: "Full Stack Developer",
-    handle: "@aryancheers",
-    borderColor: "#EF4444",
-    gradient: "linear-gradient(195deg, #EF4444, #000)",
-    url: "https://www.instagram.com/aryancheers/"
-  }
+   {
+    image: "/mentors/peyush.jpg",
+    title: "Deepak Baliyan",
+    subtitle: "Sponsorship lead",
+    handle: "@deepakbaliyan04",
+    borderColor: "#06B6D4",
+    gradient: "linear-gradient(135deg, #06B6D4, #000)",
+    url: "https://www.instagram.com/deepakbaliyan04/"
+  },
 
 
 ];
