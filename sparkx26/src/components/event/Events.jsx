@@ -86,18 +86,18 @@ export const Events = () => {
               </p>
 
               <div className="flex gap-3 mt-auto">
-                <a
-                  href="#"
-                  className="flex-1 text-center rounded-lg px-4 py-2.5 text-sm font-semibold text-white bg-white/10 border border-white/20 hover:bg-white/20 hover:border-white/30 transition-all duration-300"
+                <button
+                  disabled
+                  className="flex-1 text-center rounded-lg px-4 py-2.5 text-sm font-semibold text-white/40 bg-white/5 border border-white/10 cursor-not-allowed"
                 >
                   Register
-                </a>
-                <a
-                  href="#"
-                  className="flex-1 text-center rounded-lg px-4 py-2.5 text-sm font-semibold text-white/60 border border-white/10 bg-transparent hover:bg-white/10 hover:text-white transition-all duration-300"
+                </button>
+                <button
+                  disabled
+                  className="flex-1 text-center rounded-lg px-4 py-2.5 text-sm font-semibold text-white/30 border border-white/5 bg-transparent cursor-not-allowed"
                 >
                   Rulebook
-                </a>
+                </button>
               </div>
             </div>
           </ElectricBorder>

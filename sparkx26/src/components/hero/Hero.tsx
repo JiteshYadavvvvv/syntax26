@@ -119,7 +119,7 @@ export const Hero = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.6, ease: "easeOut" }}
-        className="absolute bottom-0 left-0 z-20 hidden w-full pointer-events-none sm:block"
+        className="absolute bottom-24 left-0 z-20 hidden w-full pointer-events-none sm:block"
       >
         <img
           src="/syntax.svg"
