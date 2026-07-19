@@ -49,7 +49,7 @@ const mentors = [
     borderColor: "#EF4444",
     gradient: "linear-gradient(195deg, #EF4444, #000)",
     url: "https://www.instagram.com/aryancheers/"
-  }
+  },
   {
     image: "/mentors/ashu.webp",
     title: "Ashutosh Mishra",
@@ -80,13 +80,22 @@ const mentors = [
   },
 
    {
-    image: "/mentors/peyush.jpg",
+    image: "/mentors/deepak.webp",
     title: "Deepak Baliyan",
     subtitle: "Sponsorship lead",
     handle: "@deepakbaliyan04",
     borderColor: "#06B6D4",
     gradient: "linear-gradient(135deg, #06B6D4, #000)",
     url: "https://www.instagram.com/deepakbaliyan04/"
+  },
+
+  {
+    image: "/mentors/aditya-rana.webp",
+    title: "Aditya Rana",
+    subtitle: "Cloud lead",
+    handle: "@aditya_rana",
+    borderColor: "#F59E0B",
+    gradient: "linear-gradient(165deg, #F59E0B, #000)"
   },
 
 
